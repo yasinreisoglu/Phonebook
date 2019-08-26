@@ -1,0 +1,15 @@
+C:\Users\Yasin\source\repos\test\test\bin\Debug\test.exe.config
+C:\Users\Yasin\source\repos\test\test\bin\Debug\test.exe
+C:\Users\Yasin\source\repos\test\test\bin\Debug\test.pdb
+C:\Users\Yasin\source\repos\test\test\bin\Debug\MySql.Data.dll
+C:\Users\Yasin\source\repos\test\test\bin\Debug\Google.Protobuf.dll
+C:\Users\Yasin\source\repos\test\test\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Yasin\source\repos\test\test\bin\Debug\MySql.Data.xml
+C:\Users\Yasin\source\repos\test\test\obj\Debug\TelefonRehberi.csprojAssemblyReference.cache
+C:\Users\Yasin\source\repos\test\test\obj\Debug\test.TelefonRehberi.resources
+C:\Users\Yasin\source\repos\test\test\obj\Debug\test.Properties.Resources.resources
+C:\Users\Yasin\source\repos\test\test\obj\Debug\TelefonRehberi.csproj.GenerateResource.cache
+C:\Users\Yasin\source\repos\test\test\obj\Debug\TelefonRehberi.csproj.CoreCompileInputs.cache
+C:\Users\Yasin\source\repos\test\test\obj\Debug\TelefonRehberi.csproj.CopyComplete
+C:\Users\Yasin\source\repos\test\test\obj\Debug\test.exe
+C:\Users\Yasin\source\repos\test\test\obj\Debug\test.pdb

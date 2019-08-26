@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App21.Views.ListApi">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="Start" Spacing="50" Padding="25,175,25,50">
+            <StackLayout Padding="10,10,10,100">
+                <Label HorizontalOptions="Center" Text="TELEFON REHBERİ" TextColor="Green" FontSize="Title"  FontAttributes="Bold" />
+            </StackLayout>
+        <StackLayout >
+            <Button Text="Kişileri Göster" TextColor="White" BackgroundColor="Green" Clicked="KisileriGoster_Clicked"></Button>
+        </StackLayout>
+        <StackLayout>
+            <Button Text="Kişi Ekle" TextColor="White" BackgroundColor="Green" Clicked="KisiEkle_Clicked"></Button>
+        </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

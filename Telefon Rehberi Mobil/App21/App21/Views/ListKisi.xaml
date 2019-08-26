@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App21.Views.ListKisi">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="listayr" RowHeight="150" ItemSelected="Listayr_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Isim}" FontSize="Medium"></Label>
+                                    <Label Text="{Binding Soyisim}" FontSize="Medium"></Label>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Telefon}" FontSize="Medium"></Label>
+                                </StackLayout>
+                                <StackLayout>
+                                    <Label Text="{Binding Telefon2}" FontSize="Medium"></Label>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Adres}" FontSize="Medium"></Label>
+                                </StackLayout>
+                                <StackLayout>
+                                    <Label Text="{Binding Eposta}" FontSize="Medium"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackLayout x:Name="stcGuncelle">
+                <Entry Placeholder="İsim" x:Name="entisim" ></Entry>
+                <Entry Placeholder="Soyisim" x:Name="entsoyisim" ></Entry>
+                <Entry Placeholder="Telefon" x:Name="enttelefon" ></Entry>
+                <Entry Placeholder="2. Telefon" x:Name="enttelefon2"></Entry>
+                <Entry Placeholder="Adres" x:Name="entadres" ></Entry>
+                <Entry Placeholder="Eposta" x:Name="enteposta" ></Entry>
+                <Button Text="Guncelle" TextColor="White" BackgroundColor="Green" Clicked="Button_Clicked_Guncellendi" x:Name="Guncellendi"></Button>
+            </StackLayout>
+            <StackLayout Orientation = "Horizontal" HorizontalOptions="Center" Margin="20" Spacing="35" x:Name="stcSilGuncelle">
+                <Button Text="Sil" Clicked="Button_Clicked_Sil" BackgroundColor="Green" TextColor="White" FontSize="Medium"/>
+                <Button Text="Güncelle" Clicked="Button_Clicked_Guncelle" BackgroundColor="Green" TextColor="White" FontSize="Medium"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
